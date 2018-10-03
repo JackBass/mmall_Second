@@ -16,6 +16,7 @@ import com.mmall.vo.CartProductVo;
 import com.mmall.vo.CartVo;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -23,6 +24,7 @@ import java.util.List;
 /**
  * Created by tony on 03/10/2018.
  */
+@Service("iCartService")
 public class CartServiceImpl implements ICartService {
 
 

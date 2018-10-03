@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 /**
  * Created by tony on 03/10/2018.
  */
-@Service("iCartService")
+
 public interface ICartService {
     ServerResponse<CartVo> add(Integer userId, Integer productId, Integer count);
 
